@@ -103,11 +103,12 @@ button:hover {
 .cards {
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
-  padding-left: 70px;
-  padding-right: 70px;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-top: 45px;
   margin-bottom: 75px;
+  gap: 15px;
 }
 .one,
 .two,
@@ -121,8 +122,8 @@ button:hover {
 .cards img {
   display: flex;
   border: 3px solid #3882f6;
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -151,6 +152,7 @@ button:hover {
   color: #e5e7eb;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .call {
   font-size: large;
@@ -162,6 +164,7 @@ button:hover {
   border: white;
   border-style: solid;
   height: 30px;
+  width: auto;
   border-width: 1px;
   align-items: center;
 }
