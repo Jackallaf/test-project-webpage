@@ -1,6 +1,7 @@
 html {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
+
 header {
     display: flex;
     color: #f9faf8;
@@ -9,29 +10,24 @@ header {
     padding-left: 50px;
     padding-right: 50px;
 }
-
 .logo {
     font-size: 24px;
     font-weight: bold;
     display: flex;
     margin-top: 15px;
 }
-
 ul{
     list-style-type: none;
     display: flex;
     flex: 1 1 auto;
     margin-top: auto;
     gap: 30px;
-
 }
-
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
-
 .right-links {
     display: flex;
     flex-direction: column;
@@ -55,7 +51,6 @@ a {
     flex: 1 1 50%;
     margin: 50px;
 }
-
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
@@ -67,20 +62,103 @@ button {
     box-shadow: none;
     justify-content: center;
     width: 80px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0ccac0;
 }
 .placeholder {
     display: flex;
     flex: 1 1 50%;
-    height: 250px;
+    height: 200px;
     width: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 50px;
+    background-color: #9d9eb1;
 }
-
 .sub-button {
     display: flex;
     border: none;
     align-items: center;
+}
+
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 45px;
+}
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 45px;
+    margin-bottom: 75px;
+}
+.one,.two,.three,.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0;
+    margin: 10px;
+}
+.cards img {
+    display: flex;
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+}
+.author {
+    text-align: end;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.action {
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 40px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+}
+.call {
+    font-size: large;
+    font-weight: bold;
+}
+.sign {
+    display: flex;
+    margin-left: 90px;
+    border: white;
+    border-style: solid;
+    height: 30px;
+    border-width: 1px;
+    align-items: center;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 25px;
+    font-size: 10px;
 }
